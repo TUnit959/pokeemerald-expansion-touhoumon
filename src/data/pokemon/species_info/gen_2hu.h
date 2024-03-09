@@ -1,17 +1,17 @@
 #ifdef __INTELLISENSE__
-const struct SpeciesInfo gSpeciesInfoGen3[] =
+const struct SpeciesInfo gSpeciesInfoGen2hu[] =
 {
 #endif
 
-#if P_FAMILY_TREECKO
-    [SPECIES_TREECKO] =
+#if P_FAMILY_CSANAE
+    [SPECIES_CSANAE] =
     {
-        .baseHP        = 40,
-        .baseAttack    = 45,
-        .baseDefense   = 35,
-        .baseSpeed     = 70,
-        .baseSpAttack  = 65,
-        .baseSpDefense = 55,
+        .baseHP        = 65,
+        .baseAttack    = 35,
+        .baseDefense   = 90,
+        .baseSpeed     = 45,
+        .baseSpAttack  = 55,
+        .baseSpDefense = 90,
         .types = { TYPE_GRASS, TYPE_GRASS },
         .catchRate = 45,
         .expYield = 62,
@@ -23,7 +23,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .eggGroups = { EGG_GROUP_MONSTER, EGG_GROUP_DRAGON },
         .abilities = { ABILITY_OVERGROW, ABILITY_NONE, ABILITY_UNBURDEN },
         .bodyColor = BODY_COLOR_GREEN,
-        .speciesName = _("Treecko"),
+        .speciesName = _("CSanae"),
         .cryId = CRY_TREECKO,
         .natDexNum = NATIONAL_DEX_TREECKO,
         .categoryName = _("Wood Gecko"),
@@ -49,17 +49,17 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         ICON(Treecko, 1),
         .footprint = gMonFootprint_Treecko,
         LEARNSETS(Treecko),
-        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_GROVYLE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_SANAE}),
     },
 
-    [SPECIES_GROVYLE] =
+    [SPECIES_SANAE] =
     {
-        .baseHP        = 50,
-        .baseAttack    = 65,
-        .baseDefense   = 45,
-        .baseSpeed     = 95,
-        .baseSpAttack  = 85,
-        .baseSpDefense = 65,
+        .baseHP        = 90,
+        .baseAttack    = 60,
+        .baseDefense   = 115,
+        .baseSpeed     = 70,
+        .baseSpAttack  = 80,
+        .baseSpDefense = 115,
         .types = { TYPE_GRASS, TYPE_GRASS },
         .catchRate = 45,
         .expYield = 142,
@@ -71,7 +71,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .eggGroups = { EGG_GROUP_MONSTER, EGG_GROUP_DRAGON },
         .abilities = { ABILITY_OVERGROW, ABILITY_NONE, ABILITY_UNBURDEN },
         .bodyColor = BODY_COLOR_GREEN,
-        .speciesName = _("Grovyle"),
+        .speciesName = _("Sanae"),
         .cryId = CRY_GROVYLE,
         .natDexNum = NATIONAL_DEX_GROVYLE,
         .categoryName = _("Wood Gecko"),
